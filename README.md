@@ -1,10 +1,10 @@
 
 # My Development Environment
 
-Instead of loading laptop with all sorts of packages, which can break each others functionality.
+Instead of loading laptops with all sorts of packages, which can break each other's functionality.
 Docker can be used.
 
-Here is my flavour of development environment. Its easy to beginner friendly with some helpful features
+Here is my flavor of the development environment. It's easy to beginner-friendly with some helpful features
 
 ## Installation
 
@@ -29,7 +29,7 @@ It is suggested that you change the *dir-name* and *cont-name* for easy manageme
   docker build -t image-name .
 ```
 
-## After starting container
+## After starting a container
 
 After starting the container for the first time,
 open *~/.zshrc* file in an editor you are comfortable with, remove this line.
@@ -49,3 +49,5 @@ plugins=(
 ```
 
 #### Now you are good to go
+
+[Docker Hub](https://hub.docker.com/r/jammutkarsh/my-development-env)
